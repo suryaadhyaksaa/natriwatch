@@ -1,4 +1,4 @@
-import { FoodLog, UserProfile, RiskScreening, FoodItem } from '../../types';
+﻿import { FoodLog, UserProfile, RiskScreening, FoodItem } from '../../types';
 import { initialFoodDatabase } from '@/data/foodDatabase';
 
 const FOOD_LOGS_KEY = 'natriwatch_food_logs';
@@ -64,6 +64,7 @@ export function saveRiskScreening(screening: RiskScreening): void {
 export function getAllFoodItems(): FoodItem[] {
   return initialFoodDatabase || [];
 }
+
 export const clearAllLocalData = (): void => {
   if (typeof window !== 'undefined') {
     localStorage.clear();
