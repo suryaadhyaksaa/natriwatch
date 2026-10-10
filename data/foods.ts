@@ -1,0 +1,13 @@
+import { FoodItem } from '../types';
+
+export const INITIAL_FOOD_DATABASE: FoodItem[] = [
+  { id: 'food_1', name: 'Mi Instan Kuah (1 Bungkus)', category: 'Mi & Bakso', servingSize: 1, servingUnit: 'bungkus (80g)', sodiumMg: 1380, caloriesKcal: 380, proteinG: 8, carbsG: 54, fatG: 15, fiberG: 2, dataSource: 'Informasi Nilai Gizi / TKPI', confidence: 'Tinggi', isEstimated: false },
+  { id: 'food_2', name: 'Ayam Geprek Sambal Korek', category: 'Olahan Daging & Ikan', servingSize: 1, servingUnit: 'porsi (120g)', sodiumMg: 890, caloriesKcal: 420, proteinG: 28, carbsG: 12, fatG: 26, fiberG: 1, dataSource: 'Estimasi Resep Kuliner', confidence: 'Estimasi', isEstimated: true },
+  { id: 'food_3', name: 'Bakso Sapi Kuah Lengkap', category: 'Mi & Bakso', servingSize: 1, servingUnit: 'mangkuk', sodiumMg: 1150, caloriesKcal: 450, proteinG: 22, carbsG: 48, fatG: 18, fiberG: 2, dataSource: 'Estimasi Lab Gizi', confidence: 'Estimasi', isEstimated: true },
+  { id: 'food_4', name: 'Nasi Goreng Spesial Telur', category: 'Makanan Utama', servingSize: 1, servingUnit: 'piring (250g)', sodiumMg: 980, caloriesKcal: 560, proteinG: 16, carbsG: 72, fatG: 22, fiberG: 2, dataSource: 'TKPI Kemenkes RI', confidence: 'Sedang', isEstimated: true },
+  { id: 'food_5', name: 'Seblak Komplit', category: 'Gorengan & Camilan', servingSize: 1, servingUnit: 'mangkuk (200g)', sodiumMg: 1450, caloriesKcal: 490, proteinG: 14, carbsG: 58, fatG: 22, fiberG: 1, dataSource: 'Estimasi Pedagang', confidence: 'Estimasi', isEstimated: true },
+  { id: 'food_6', name: 'Rendang Daging Sapi Warteg', category: 'Olahan Daging & Ikan', servingSize: 1, servingUnit: 'potong (70g)', sodiumMg: 520, caloriesKcal: 240, proteinG: 18, carbsG: 6, fatG: 16, fiberG: 1, dataSource: 'TKPI Kemenkes RI', confidence: 'Tinggi', isEstimated: false },
+  { id: 'food_7', name: 'Bakwan Gorengan (2 biji)', category: 'Gorengan & Camilan', servingSize: 2, servingUnit: 'biji (80g)', sodiumMg: 420, caloriesKcal: 280, proteinG: 4, carbsG: 28, fatG: 17, fiberG: 2, dataSource: 'TKPI Kemenkes RI', confidence: 'Sedang', isEstimated: true },
+  { id: 'food_8', name: 'Soto Ayam Lamongan', category: 'Sayur & Sup', servingSize: 1, servingUnit: 'mangkuk (300ml)', sodiumMg: 850, caloriesKcal: 310, proteinG: 20, carbsG: 22, fatG: 14, fiberG: 1, dataSource: 'Estimasi Tradisional', confidence: 'Estimasi', isEstimated: true },
+  { id: 'food_9', name: 'Nasi Putih Matang', category: 'Makanan Utama', servingSize: 1, servingUnit: 'porsi (150g)', sodiumMg: 5, caloriesKcal: 200, proteinG: 4, carbsG: 44, fatG: 0.5, fiberG: 1, dataSource: 'TKPI Kemenkes RI', confidence: 'Tinggi', isEstimated: false }
+];
