@@ -64,3 +64,8 @@ export function saveRiskScreening(screening: RiskScreening): void {
 export function getAllFoodItems(): FoodItem[] {
   return initialFoodDatabase || [];
 }
+export const clearAllLocalData = (): void => {
+  if (typeof window !== 'undefined') {
+    localStorage.clear();
+  }
+};
